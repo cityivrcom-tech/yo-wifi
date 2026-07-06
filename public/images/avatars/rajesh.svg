@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+  <rect width="150" height="150" rx="75" fill="url(#grad1)" />
+  <circle cx="75" cy="55" r="28" fill="#e0f2fe" opacity="0.9" />
+  <path d="M25 135 C30 100, 120 100, 125 135 Z" fill="#e0f2fe" opacity="0.9" />
+  <text x="75" y="63" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#0369a1" text-anchor="middle">RK</text>
+</svg>

@@ -26,7 +26,7 @@ const PARTNER_VIDEOS: VideoTestimonial[] = [
     lcoCompany: "Sri Sai Cable & Datacom",
     city: "Hyderabad",
     duration: "03:42",
-    thumbnail: "/src/assets/images/lco_partner_video_thumbnail_1783244348042.jpg",
+    thumbnail: "/images/video_thumb.jpg",
     subscribers: "3,500+ Active Subs",
     growthRate: "+337% YoY Growth",
     quote: "When we deployed the YO WiFi 1200Mbps vessels and activated the automated Google ad campaigns, our local booking desk literally ran out of installation slots. It transformed us from a struggling neighborhood cable operator into the undisputed broadband leader in West Hyderabad.",
@@ -39,7 +39,7 @@ const PARTNER_VIDEOS: VideoTestimonial[] = [
     lcoCompany: "Deccan High-Speed Grid",
     city: "Bangalore",
     duration: "02:15",
-    thumbnail: "/src/assets/images/yo_wifi_modern_router_1783164711823.jpg",
+    thumbnail: "/images/modern_router.jpg",
     subscribers: "8,200+ Active Subs",
     growthRate: "+165% YoY Growth",
     quote: "Previously, 80% of our customer complaints were due to cheap 2.4GHz single-band routers dropping connections during peak gaming and Zoom hours. Since migrating to YO WiFi's dual-band vessels with 24/7 Remote SOC monitoring, our churn dropped from 22% to under 1.5%.",
@@ -52,7 +52,7 @@ const PARTNER_VIDEOS: VideoTestimonial[] = [
     lcoCompany: "Malabar Optical Networks",
     city: "Kochi",
     duration: "04:10",
-    thumbnail: "/src/assets/images/yo_wifi_hyperlocal_ads_1783164698206.jpg",
+    thumbnail: "/images/hyperlocal_ads.jpg",
     subscribers: "9,500+ Active Subs",
     growthRate: "+188% YoY Growth",
     quote: "In our 15 years as an LCO, we never imagined getting 25 to 30 verified residential connection inquiries daily via WhatsApp. YO WiFi geo-fenced our exact 2km node radius and ran ads that made our brand look like a national telecom giant.",
@@ -65,7 +65,7 @@ const PARTNER_VIDEOS: VideoTestimonial[] = [
     lcoCompany: "Kaveri Digital Cable",
     city: "Chennai",
     duration: "03:28",
-    thumbnail: "/src/assets/images/lco_growth_hero_banner_1783164681558.jpg",
+    thumbnail: "/images/hero_banner.jpg",
     subscribers: "11,400+ Active Subs",
     growthRate: "+142% YoY Growth",
     quote: "Other ISP franchise models take away your brand identity and squeeze your margins. YO WiFi gave us exclusive territory rights, let us keep our local customer relationships, and supercharged our ARPU by ₹450 per household.",
@@ -124,7 +124,7 @@ export function VideoTestimonialShowcase({ onOpenConsultation }: { onOpenConsult
                 className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ${isPlaying ? 'scale-105 filter brightness-75' : 'scale-100 filter brightness-90 group-hover:scale-105'}`}
                 onError={(e) => {
                   // Fallback if image fails to load
-                  (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80';
+                  (e.target as HTMLImageElement).src = '/images/hero_banner.jpg';
                 }}
               />
 
@@ -266,7 +266,7 @@ export function VideoTestimonialShowcase({ onOpenConsultation }: { onOpenConsult
                         alt={video.partnerName} 
                         className="w-full h-full object-cover filter brightness-90"
                         onError={(e) => {
-                          (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=400&q=80';
+                          (e.target as HTMLImageElement).src = '/images/hero_banner.jpg';
                         }}
                       />
                       <div className="absolute inset-0 bg-slate-950/40 flex items-center justify-center">

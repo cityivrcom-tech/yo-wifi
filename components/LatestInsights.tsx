@@ -37,7 +37,7 @@ const INSIGHTS_DATA: BlogPost[] = [
       "Instead, 68% of subscriber support calls and subsequent churn are caused by RF congestion on legacy 2.4GHz single-band routers inside dense residential apartment complexes.",
       "By upgrading households to YO WiFi's 1200Mbps Dual-Band Wi-Fi 6 vessels, LCOs offload high-bandwidth streaming devices to clean 5GHz channels while utilizing beamforming for penetrating concrete walls. Our partner LCOs report a 42% reduction in truck rolls within 30 days of hardware migration."
     ],
-    image: "/src/assets/images/yo_wifi_modern_router_1783164711823.jpg",
+    image: "/images/modern_router.jpg",
     featured: true
   },
   {
@@ -54,7 +54,7 @@ const INSIGHTS_DATA: BlogPost[] = [
       "YO WiFi's automated ad engine draws a precise 2.0km digital perimeter around your serviced optical nodes. When residents search for 'high speed wifi near me' or scroll through Instagram reels in the evening, they see targeted YO WiFi partner ads offering instant 2-hour installation.",
       "This strategy reduces customer acquisition cost (CAC) by 60% while positioning your local brand with enterprise-level credibility."
     ],
-    image: "/src/assets/images/yo_wifi_hyperlocal_ads_1783164698206.jpg"
+    image: "/images/hyperlocal_ads.jpg"
   },
   {
     id: 3,
@@ -70,7 +70,7 @@ const INSIGHTS_DATA: BlogPost[] = [
       "With YO WiFi's integrated SOC (Security & Operations Center) portal, LCOs gain real-time visibility into subscriber router health, bandwidth consumption spikes, and firmware status without leaving their local office.",
       "Automating these operational workflows allows operators to manage up to 3x more subscribers with their existing field technician teams."
     ],
-    image: "/src/assets/images/lco_growth_hero_banner_1783164681558.jpg"
+    image: "/images/hero_banner.jpg"
   },
   {
     id: 4,
@@ -86,7 +86,7 @@ const INSIGHTS_DATA: BlogPost[] = [
       "YO WiFi provides partner operators with an automated WhatsApp conversational assistant that verifies service coverage, recommends speed tiers, and books installation slots directly into your field technicians' calendars 24 hours a day, 7 days a week.",
       "Partners utilizing automated chat booking report an immediate 28% increase in weekend subscriber activations."
     ],
-    image: "/src/assets/images/yo_wifi_modern_router_1783164711823.jpg"
+    image: "/images/modern_router.jpg"
   }
 ];
 

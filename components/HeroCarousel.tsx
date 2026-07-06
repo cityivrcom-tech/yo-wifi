@@ -18,7 +18,7 @@ const SLIDES = [
     titleSuffix: "is Here.",
     suffixColor: "text-slate-400",
     description: "We build the ecosystem that empowers Local Cable Operators. You master the physical fiber network, we master the local sales and marketing.",
-    image: "/src/assets/images/lco_growth_hero_banner_1783164681558.jpg",
+    image: "/images/hero_banner.jpg",
     ctaText: "Join YO WiFi Ecosystem",
     stats: [
       { label: "YO WiFi Monitoring", value: "Active 24/7", icon: <Activity className="w-5 h-5 text-sky-400" /> },
@@ -35,7 +35,7 @@ const SLIDES = [
     titleSuffix: "Hyper-Local Growth.",
     suffixColor: "text-white",
     description: "Stop relying solely on word of mouth. Our geo-fenced YO WiFi digital ad campaigns on Google & social media deliver ready-to-convert resident leads straight to your local LCO desk.",
-    image: "/src/assets/images/yo_wifi_hyperlocal_ads_1783164698206.jpg",
+    image: "/images/hyperlocal_ads.jpg",
     ctaText: "Launch YO WiFi Ads",
     stats: [
       { label: "Acquisition Lift", value: "+40% Avg", icon: <TrendingUp className="w-5 h-5 text-indigo-400" /> },
@@ -52,7 +52,7 @@ const SLIDES = [
     titleSuffix: "Wifi Router.",
     suffixColor: "text-slate-400",
     description: "Eliminate customer churn caused by old single-band routers. Deploy ultra-modern 1200Mbps dual-band vessels with 24/7 remote diagnostics.",
-    image: "/src/assets/images/yo_wifi_modern_router_1783164711823.jpg",
+    image: "/images/modern_router.jpg",
     ctaText: "Explore Modern Routers",
     stats: [
       { label: "Wireless Speed", value: "1200 Mbps", icon: <Zap className="w-5 h-5 text-yellow-400" /> },

@@ -387,7 +387,7 @@ export default function App() {
                   <div className="absolute inset-0 bg-sky-500/10 rounded-full blur-[120px]" />
                   <div className="relative glass p-12 rounded-[4rem] border-white/5">
                     <img 
-                      src="/src/assets/images/yo_wifi_modern_router_1783164711823.jpg" 
+                      src="/images/modern_router.jpg" 
                       alt="Elite Router" 
                       className="w-full max-w-md mx-auto drop-shadow-[0_0_50px_rgba(14,165,233,0.3)] rounded-3xl"
                       referrerPolicy="no-referrer"

@@ -13,7 +13,7 @@ const TESTIMONIALS = [
     growth: "+48% Subscriber Lift",
     subscribers: "8,500 Active Users",
     quote: "Running an LCO used to mean fighting customer churn every single month. Since partnering with YO WiFi, their targeted digital ad campaigns on social media brought us 2,800 new fiber subscribers in just 6 months. We finally have time to upgrade our physical optic lines while they handle 100% of our sales.",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    avatar: "/images/avatars/rajesh.svg",
     rating: 5
   },
   {
@@ -25,7 +25,7 @@ const TESTIMONIALS = [
     growth: "+62% Net Revenue",
     subscribers: "12,200 Active Users",
     quote: "The dual-band hardware support is a game changer. Our subscribers were complaining about Wi-Fi range with older single-band routers. YO WiFi equipped our network with 1200Mbps dual-band vessels and 24/7 remote diagnostics. Customer complaints dropped by 80% and our ARPU jumped by ₹90 per user!",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+    avatar: "/images/avatars/sandeep.svg",
     rating: 5
   },
   {
@@ -37,7 +37,7 @@ const TESTIMONIALS = [
     growth: "+35% Growth in 90 Days",
     subscribers: "6,400 Active Users",
     quote: "What impressed me most is the respect for our local brand. They didn't erase our identity; instead, they provided 'Powered by YO WiFi' certification and high-end marketing banners that made us look like a national telecom giant. We crushed our local competitors this quarter.",
-    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+    avatar: "/images/avatars/anandita.svg",
     rating: 5
   },
   {
@@ -49,7 +49,7 @@ const TESTIMONIALS = [
     growth: "+55% Premium Tier Upsell",
     subscribers: "4,900 Active Users",
     quote: "Their automated lead generation funnel feeds residents looking for high-speed Wi-Fi straight into our WhatsApp and desk CRM. We don't spend a single rupee on wasted flyers anymore. Every lead is geo-fenced to our exact 3km cabling radius.",
-    avatar: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+    avatar: "/images/avatars/vikram.svg",
     rating: 5
   },
   {
@@ -61,7 +61,7 @@ const TESTIMONIALS = [
     growth: "+140% Annual Profit Lift",
     subscribers: "15,000 Active Users",
     quote: "YO WiFi is true to their word: an ecosystem builder. Their 24/7 technical command center handles router reboots and firmware updates automatically without bothering our field technicians. Best business decision we made in 15 years of cable operations.",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
+    avatar: "/images/avatars/amitabh.svg",
     rating: 5
   }
 ];
